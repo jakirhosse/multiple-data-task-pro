@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import CategoryMenu from "../categoryMenu";
+// import CategoryMenu from "../categoryMenu";
 
 const Category = () => {
   const [categories, setCategories] = useState([]);
@@ -16,7 +17,7 @@ const Category = () => {
 
   return (
     <div>
-      <div className="-mt-[20px] absolute top-0 z-50">
+      <div className="mt-[118px] absolute top-0 z-50">
         <CategoryMenu className="w-full bg-white" categories={categories} />
       </div>
     </div>

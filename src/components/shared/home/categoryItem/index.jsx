@@ -15,19 +15,19 @@ const CategoryItem = ({ category }) => {
       onMouseLeave={handleMouseLeave}
     >
       {/* Main Category */}
-      <div className="flex justify-between items-center cursor-pointer p-2 rounded hover:bg-gray-100 ">
+      <div className="flex justify-between items-center cursor-pointer px-2 py-1 rounded hover:bg-gray-100 ">
         <span className="text-gray-800 font-medium hover:text-primary pr-4">
           {category.title}
         </span>
-        {category?.childrens && (
+        {/* {category?.childrens && (
           <div className="text-gray-500">
-            {/* {isHovered ? (
+            {isHovered ? (
               <AiOutlineDown className="text-primary" />
             ) : (
               <AiOutlineRight />
-            )} */}
+            )}
           </div>
-        )}
+        )} */}
       </div>
 
       {/* Subcategories */}
